@@ -14,7 +14,7 @@ import org.json.JSONObject
 
 
 class MapHelper {
-    private val directionsApiKey = "AIzaSyANWm__96K9HyOYbVqlwOcGTWJR-RsUAQ8"
+    private val directionsApiKey = "YOUR_API_KEY"
 
     suspend fun getRouteCoordinates(context: Context, origin: LatLng, destination: LatLng): List<LatLng> {
         return withContext(Dispatchers.IO) {
